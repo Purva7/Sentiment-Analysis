@@ -50,6 +50,7 @@ public class TweetsData {
 				MongoClient mongoClient = new MongoClient("localhost", 27017);
 				DB db = mongoClient.getDB("tweetdb");
 				System.out.println("Connect to database successfully");
+				System.out.println("Connect to database successfully good");
 				DBCollection coll = db.getCollection("mytweetcol7");
 				System.out.println("Collection mycol selected successfully");
 				int i = 0;
